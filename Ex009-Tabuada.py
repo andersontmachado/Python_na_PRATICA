@@ -11,5 +11,6 @@ print('{} x {:2} + {}'.format(t,8,t*8))
 print('{} x {:2} = {}'.format(t,9,t*9))
 print('{} x {:2} = {}'.format(t,10,t*10))
 print('-'*12)
+#tabuada
 
 
