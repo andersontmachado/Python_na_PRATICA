@@ -8,3 +8,5 @@ print('A média entre {} e {} é igual a {:.2f}'.format(p,s,m))
 
 
 
+
+
