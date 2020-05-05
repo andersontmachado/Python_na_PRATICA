@@ -1,2 +1,4 @@
 nome=str(input('Qual seu nome: '))
-print(nome)
+sobre=str(input('Sobrenome: '))
+print(nome,sobre)
+
