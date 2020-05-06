@@ -4,4 +4,3 @@ if resultado == 0:
     print('O número {} é Par'.format(numero))
 else:
     print('O número {} é Impar'.format(numero))
-
