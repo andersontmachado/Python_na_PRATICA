@@ -4,3 +4,4 @@ if salario <= 1250:
 else:
     novo = salario + (salario * 10 / 100)
 print('Quem ganhava R${:.2f} passa ganhar agora R${:.2f}'.format(salario, novo))
+#Usamos duas variaveis NOVO, uma pra 15% e outra pra 10%
