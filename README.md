@@ -1,4 +1,3 @@
-# exerciciospython
-teste python
-teste2
-teste3
+#EXERCÍCIOS DE PYTHON
+PYTHON PARA APRENDIZADO
+LINGUAGEM MUITO DIDÁTICA....SHOW
