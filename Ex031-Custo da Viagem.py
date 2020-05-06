@@ -22,7 +22,7 @@ if distancia <=200:
 else:
     print('Você foi para fora de São Paulo'.format(distancia))
 
-#FIKEI BRINCANDO COM OS CODIGO PARA APRENDER.MUITO BOM
+#FIQUEI BRINCANDO COM OS CODIGO PARA APRENDER.MUITO BOM
 
 
 
