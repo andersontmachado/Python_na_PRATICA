@@ -9,6 +9,7 @@ if prestacao <=minimo:
     print('Emprestimo concedido!')
 else:
     print('Emprestimo NEGADO!')
+#SICOOB,simulação do banco que utilizo.
 
 
 
