@@ -22,5 +22,5 @@ if b < a and b < c:
 if c < a and c < b:
     menor = c
 print('O menor valor é {}'.format(menor))'''
-#SÓ COM 2 IF,MANEIRA MAIS SIMPLES.
+#SÓ COM 2 IF,MANEIRA MAIS SIMPLES....
 
