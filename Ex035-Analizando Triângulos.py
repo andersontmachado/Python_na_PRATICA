@@ -13,4 +13,4 @@ else:
     print('Os segmentos acima \033[1;35mNÃO\033[m PODEM FORMAR TRIÂNGULO!')
 '''Nesse exercicio foi muito bom,ele era básico,coloquei cores,coloquei para o computador
 # dar aquela pensada,com tempo de 3 segundos com comando sleep importado.
-##muito bom....VAMOS FAZER OS EXERCICIO OU VERFIFICAR NOVAMENTE,PARA PODER FAZER A PROVA'''
+##muito bom...VAMOS FAZER OS EXERCICIO OU VERFIFICAR NOVAMENTE,PARA PODER FAZER A PROVA'''
