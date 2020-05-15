@@ -3,6 +3,7 @@ médiaidade=0
 maioridadehomem=0
 nomevelho=''
 totmulher=0
+igualidade=0
 for p in range(1,5):
     print('------{}ªpessoa------'.format(p))
     nome=str(input('NOME: ')).strip()
@@ -17,6 +18,9 @@ for p in range(1,5):
         nomevelho=nome
     if sexo in 'Fm' and idade <20:
         totmulher=totmulher+1
+    if idade == 0:
+        igualidade=igualidade+1
+
 
 médiaidade=somaidade/4
 print('A média de idade do grupo é {}'.format(médiaidade))
