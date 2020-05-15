@@ -1,8 +1,12 @@
-for p in range(1,8):
+somaidade=0
+for p in range(1,5):
     print('------{}ªpessoa------'.format(p))
-    n=str(input('NOME: ')).strip()
-    i=int(input('IDADE: '))
+    nome=str(input('NOME: ')).strip()
+    idade=int(input('IDADE: '))
     sexo=str(input('M/F: '))
+    somaidade=somaidade+idade
+
+
 
 
 
