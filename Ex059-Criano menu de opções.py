@@ -21,11 +21,12 @@ while opção !=5:
         n1=int(input('Digite o primeiro valor: '))
         n2=int(input('Digite o segundo valor: '))
     elif opção == 5:
-        print('Finalizando...')
+        print('Finalizando....')
     else:
         print('Opção Inválida.Tente novamente!')
 print('-='*12)
 print('FIM DO PROGRAMA!VOLTE SEMPRE')
+
 
 
 
