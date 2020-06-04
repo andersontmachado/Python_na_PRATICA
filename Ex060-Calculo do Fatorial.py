@@ -1,9 +1,10 @@
 n=int(input('Digite um numero: '))
 c=n
 while c>0:
-    print('{} x '.format(c),end='')
+    print(''.format(c),end='')
     print(' x ' if c>1 else '=',end='')
     c=c-1
+
 
 
 
