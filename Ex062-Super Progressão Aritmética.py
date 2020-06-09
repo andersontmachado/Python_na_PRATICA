@@ -14,4 +14,5 @@ while cont <=20:#enquanto ele não chegar a 10,vai mostra o termo
     cont+=1
 
 print('FIM')
-#pra acabar
+
+#pra acabar..
