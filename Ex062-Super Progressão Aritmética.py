@@ -21,6 +21,9 @@ while mais !=0:
 
 print('Progressão finalizada com {} termos.'.format(total))
 
+'''tentei brincar colocando o que o usuario digitou se é par ou impar,mais não consegui.
+irei tentar mais pra frente.'''
+
 
 
 
