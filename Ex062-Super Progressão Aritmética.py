@@ -6,6 +6,8 @@ termo=primeiro
 cont=1
 total=0
 mais=5
+'''esse qui é o termo que vai contar agora,como não sabiamos o que o usuario
+ iria digitar,fazemos uma variavel total e depois  criamos no while'''
 
 while mais !=0:
     total+=mais
