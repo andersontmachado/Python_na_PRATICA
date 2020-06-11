@@ -9,6 +9,11 @@ while n != 999:
 print('Você digitou {} números e a soma é {}'.format(cont,soma))
 print('FIM')
 
+'''quando se a variaveis iguais a zer,como está,pode se colocar assim:
+n=cont=soma=0,em umal inha só,eu fiz de três,pq ja sou acostumado.
+
+#haverá um jeito mais facil de resolver essa aula,na proxima aula,então não vo
+muito me aperfeiçoar desse jeito'''
 
 
 
