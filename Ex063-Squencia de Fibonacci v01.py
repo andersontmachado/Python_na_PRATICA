@@ -16,9 +16,10 @@ while cont <= n:
     cont+=1#ir contando
 print(' -> FIM')
 ''' Lembrando que não é contagem de todos os numeros,e sim do t1,t2,o t3 vale o t1+t2,ai como se contasse a e b,o c retorna
-pra contar dinovo,exemplo...0->1->fixo,que valw t1=0,e t2=1,depois o t3 é o t1+t2,então na proxima sequencia,dá
+pra contar dinovo,exemplo...0->1->fixo(pra fazer a conta icia-se obrigatoriamente esses dois valor)que valw t1=0,e t2=1,depois o t3 é o t1+t2,então na proxima sequencia,dá
 0+1=1,a pfroxima sequencia 0+1=1+1=2+3=5+3=8 e assim por diante
                                -   -   -   -'''
+
 
 
 
