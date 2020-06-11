@@ -9,7 +9,7 @@ while resp in 'Ss':
     soma=soma+num
     quant+=1
     if quant ==1:
-        maior=maior=num #numero vai ser igual o maior e o menor
+        maior=menor=num #numero vai ser igual o maior e o menor
     else:
         if num>maior:
             maior=num
@@ -20,7 +20,6 @@ while resp in 'Ss':
 media=soma/quant
 print('Você digitou {} numeros e a media foi {:.2f}'.format(quant,media))
 print('O maior valor digitado é {} e o menor {}'.format(maior,menor))
-
 
 
 
