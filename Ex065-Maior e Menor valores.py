@@ -21,5 +21,6 @@ media=soma/quant
 print('Você digitou {} numeros e a media foi {:.2f}'.format(quant,media))
 print('O maior valor digitado é {} e o menor {}'.format(maior,menor))
 
-
+'''como no exercicio anterior,podemos colocar assim
+soma=quant=media=maior=menor=0, uma linha só'''
 
