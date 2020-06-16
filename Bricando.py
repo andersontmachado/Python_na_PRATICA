@@ -1,15 +1,17 @@
+from datetime import date
 print('testandooo......')
 print('-='*20)
+atual=date.today().year
 ano=int(input('Em que ano você nasceu? '))
 soma=0
-idade=ano
-soma_idade=ano-idade
-
+idade=atual-ano
 while soma ==0:
-    if idade < 2002:
-        print('Você tem {} anos,é de maior!'.format(soma_idade))
+    if idade <= 17:
+        print('Você tem {} anos,é de menor!'.format(idade))
         soma+=1
     else:
-        print('Você tem {} anos,é de menor'.format(soma_idade))
-        soma=+1
+        print('Você tem {} anos,é de maior!'.format(idade))
+        soma+=1
+
+
 print('FIM')
