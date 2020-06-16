@@ -15,6 +15,7 @@ while resp in 'Ss':
             maior=num
         if num <menor:
             menor=num
+
 #esses dois if's estão dentro do outro if quant ==1,aninhamento dentro do while
     resp = str(input('Você quer continuar [S/N] ')).strip().upper()[0]
 media=soma/quant
