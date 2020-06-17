@@ -12,6 +12,7 @@ while soma ==0:
     else:
         print('Você tem {} anos,é de maior!'.format(idade))
         soma+=1
+    
 
 
 print('FIM...novovsc')
