@@ -16,7 +16,7 @@ while resp in 'Ss':
         if num <menor:
             menor=num
 
-#esses dois if's estão dentro do outro if quant ==1,aninhamento dentro do while
+##esses dois if's estão dentro do outro if quant ==1,aninhamento dentro do while
     resp = str(input('Você quer continuar [S/N] ')).strip().upper()[0]
 media=soma/quant
 print('Você digitou {} numeros e a media foi {:.2f}'.format(quant,media))
