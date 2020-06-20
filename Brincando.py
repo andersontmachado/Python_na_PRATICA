@@ -35,26 +35,25 @@ while opção !=5:
         print('A sua mãe vai te levar pra conhecer a palavra do senhor!')
         menor+=1
     while opção ==3:
-    if opção == 3 and idade < 10:
-        print('Categoria Fraldinha!')
-        soma = soma + 1
-    elif opção == 3 and idade > 10:
-        print('Categoria Pré mirim!')
-        soma += 1
-    elif opção == 3 and idade <= 20:
-        print('Categoria Infantil')
-        soma += 1
-    elif opção == 3 and idade >= 30:
-        print('Categoria Adulto')
-        soma += 1
-    elif opção == 3 and idade <= 45:
-        print('Pré Veterano')
-        soma += 1
-    elif opção == 3 and idade <= 65:
-        print('Categoria bico do corvo!')
-        soma += 1
+        if opção == 3 and idade < 10:
+            print('Categoria Fraldinha!')
+            soma = soma + 1
+        elif opção == 3 and idade > 10:
+            print('Categoria Pré mirim!')
+            soma += 1
+        elif opção == 3 and idade <= 20:
+            print('Categoria Infantil')
+            soma += 1
+        elif opção == 3 and idade >= 30:
+            print('Categoria Adulto')
+            soma += 1
+        elif opção == 3 and idade <= 45:
+            print('Pré Veterano')
+            soma += 1
+        elif opção == 3 and idade <= 65:
+            print('Categoria bico do corvo!')
+            soma += 1
 ##
-
 
 print('fim')
 
