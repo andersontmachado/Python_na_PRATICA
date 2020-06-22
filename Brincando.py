@@ -9,6 +9,8 @@ opção=0
 maior=0
 menor=0
 idade=atual-ano
+cat=ano
+cont=0
 while soma ==0:
     if idade <= 17:
         sleep(2)
@@ -25,34 +27,38 @@ while opção !=5:
     [4]Escola
     [5]Sair''')
     opção=int(input('Qual sua opção:'))
+    ano = int(input('Em que ano você nasceu? '))
+    nasc=2020-cat
     if opção ==1 and idade>=18:
-        print('Você tem {} anos,pode ir!'.format(idade))
+        print('Você tem {} anos,pode ir!'.format(nasc))
         maior+=1
     elif opção ==1 and idade<18:
-        print('Você tem {} anos,é um bebe ainda,não pode sair!'.format(idade))
+        print('Você tem {} anos,é um bebe ainda,não pode sair!'.format(nasc))
         menor=menor+1
     elif opção ==2 and idade <10:
         print('A sua mãe vai te levar pra conhecer a palavra do senhor!')
         menor+=1
     while opção ==3:
-        if opção == 3 and idade < 10:
-            print('Categoria Fraldinha!')
-            soma = soma + 1
-        elif opção == 3 and idade > 10:
-            print('Categoria Pré mirim!')
-            soma += 1
-        elif opção == 3 and idade <= 20:
-            print('Categoria Infantil')
-            soma += 1
-        elif opção == 3 and idade >= 30:
-            print('Categoria Adulto')
-            soma += 1
-        elif opção == 3 and idade <= 45:
-            print('Pré Veterano')
-            soma += 1
-        elif opção == 3 and idade <= 65:
-            print('Categoria bico do corvo!')
-            soma += 1
+        while cont==0:
+            if opção == 3 and idade <= 10:
+                print('Você nasceu em {} e tem {}anos'.format(cat,nasc),end='')
+                print('Categoria Fraldinha!')
+                cont+=1
+            elif opção == 3 and idade > 10:
+                print('Categoria Pré mirim!')
+                cont+=1
+            elif opção == 3 and idade <= 20:
+                print('Categoria Infantil')
+                cont += 1
+            elif opção == 3 and idade > 30:
+                print('Categoria Adulto')
+                cont += 1
+            elif opção == 3 and idade <= 45:
+                print('Pré Veterano')
+                cont += 1
+            elif opção == 3 and idade > 45:
+                print('Categoria bico do corvo!')
+                cont += 1
 ##
 
 print('fim')
