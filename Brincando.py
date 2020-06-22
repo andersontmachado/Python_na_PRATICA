@@ -41,29 +41,14 @@ while opção !=5:
     while opção ==3:
         while cont==0:
             if opção == 3 and idade <= 10:
-                print('Você nasceu em {} e tem {}anos'.format(cat,nasc),end='')
+                saldo=idade-cat
+                print('Você nasceu em {} e tem {} anos'.format(cat,idade))
                 print('Categoria Fraldinha!')
                 cont+=1
             elif opção == 3 and idade > 10:
+                saldo=idade-cat
+                print('Você nasceu em {} e tem {} anos'.format(cat,idade))
                 print('Categoria Pré mirim!')
                 cont+=1
-            elif opção == 3 and idade <= 20:
-                print('Categoria Infantil')
-                cont += 1
-            elif opção == 3 and idade > 30:
-                print('Categoria Adulto')
-                cont += 1
-            elif opção == 3 and idade <= 45:
-                print('Pré Veterano')
-                cont += 1
-            elif opção == 3 and idade > 45:
-                print('Categoria bico do corvo!')
-                cont += 1
-##
-
-print('fim')
-
-
-
 
 
