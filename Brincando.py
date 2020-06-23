@@ -44,20 +44,21 @@ while opção !=5:
                 print('Categoria Fraldinha!')
                 cont+=1
             elif idade > 10 and idade <20:
-                print('Você nasceu em \033[41m{}\033[m e tem \033[32m{}\033anos'.format(cat,idade))
+                print('Você nasceu em \033[31m{}\033[m e tem \033[32m{}\033anos'.format(cat,idade))
                 print('Categoria Pré mirim!')
                 cont+=1
             elif idade>20 and idade <35:
-                print('Você nasceu em {} e tem {} anos'.format(cat,idade))
+                print('Você nasceu em \033[31m{}\033[m e tem \033[31m{}\033[m anos'.format(cat,idade))
                 print('Categoria Infantil')
                 cont+=1
             elif idade >35 and idade <45:
-                print('Você nasceu em {} e tem {} anos'.format(cat,idade))
+                print('Você nasceu em \033[31m{}\033[m e tem \033[m{} anos'.format(cat,idade))
                 print('Categoria Adulto')
                 cont+=1
 
                 print('FIM')
 print('ACABOOOOOOOO')
+##esse projeto estou desenvolvendo para que eu possa aprender o basico da programação.
 
 
 
