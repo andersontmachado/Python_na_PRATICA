@@ -27,7 +27,6 @@ while opção !=5:
     [4]Escola
     [5]Sair''')
     opção=int(input('Qual sua opção:'))
-    ano = int(input('Em que ano você nasceu? '))
     nasc=2020-cat
     if opção ==1 and idade>=18:
         print('Você tem {} anos,pode ir!'.format(nasc))
@@ -40,15 +39,27 @@ while opção !=5:
         menor+=1
     while opção ==3:
         while cont==0:
-            if opção == 3 and idade <= 10:
-                saldo=idade-cat
+            if idade < 10:
+                saldo=idade
                 print('Você nasceu em {} e tem {} anos'.format(cat,idade))
                 print('Categoria Fraldinha!')
                 cont+=1
-            elif opção == 3 and idade > 10:
-                saldo=idade-cat
+            elif idade > 10 and idade <20:
+                saldo=idade
                 print('Você nasceu em {} e tem {} anos'.format(cat,idade))
                 print('Categoria Pré mirim!')
                 cont+=1
+            if idade>20 and idade <35:
+                saldo=idade
+                print('Você nasceu em {} e tem {} anos'.format(cat,idade))
+                print('Categoria Infantil')
+                cont+=1
+
+
+
+                print('FIM')
+print('ACABOOOOOOOO')
+
+
 
 
