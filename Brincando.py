@@ -10,14 +10,15 @@ idade=atual-ano
 cat=ano
 cont=0
 while opção !=5:
-    if idade <18:
-        sleep(0)
-        print('Você tem \033[32m{}\033[m anos,é de menor!'.format(idade))
-        soma+=1
-    elif idade>=18:
-        sleep(0)
-        print('Você tem \033[31m{}\033[m anos,é de maior!'.format(idade))
-        soma+=1
+    while opção==0:
+        if idade <18:
+            sleep(0)
+            print('Você tem \033[32m{}\033[m anos,é de menor!'.format(idade))
+            soma+=1
+        else:
+            sleep(0)
+            print('Você tem \033[31m{}\033[m anos,é de maior!'.format(idade))
+            soma+=1
     print('''    [1]Balada
     [2]Igreja
     [3]Futebol
