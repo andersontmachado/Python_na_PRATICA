@@ -26,18 +26,18 @@ while opção !=5:
     [3]Futebol
     [4]Escola
     [5]Sair''')
+    opção = int(input('Qual sua opção:'))
     nasc=2020-cat
     while opção ==1:
-
         if  idade>=18:
             print('Você tem {} anos,pode ir!'.format(nasc))
-            maior+=1
+            opção+=1
         elif idade<18:
             print('Você tem {} anos,é um bebe ainda,não pode sair!'.format(nasc))
-            menor+=1
-        if opção ==2 and idade <10:
-            print('A sua mãe vai te levar pra conhecer a palavra do senhor!')
-            menor+=1
+            opção+=1
+    while opção ==2 and idade <10:
+        print('A sua mãe vai te levar pra conhecer a palavra do senhor!')
+        opção+=1
     while opção ==3:
         while cont==0:
             if idade < 10:
