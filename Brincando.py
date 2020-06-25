@@ -10,7 +10,7 @@ idade=atual-ano
 cat=ano
 cont=0
 while opção !=5:
-    while opção==0:
+    while ssopção==0:
         if idade <18:
             sleep(0)
             print('Você tem \033[32m{}\033[m anos,é de menor!'.format(idade))
