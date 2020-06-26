@@ -9,6 +9,7 @@ opção=0
 idade=atual-ano
 cat=ano
 cont=0
+exame=''
 while opção !=5:
     while soma==0:
         if idade <18:
@@ -44,7 +45,22 @@ while opção !=5:
     elif opção ==3:
         if idade<10:
             idade=atual-ano
-            print('Você tem {} anos e sua categoria é FRALDINHA!'.format(idade))
+            print('Você tem {} anos e sua Categoria é FRALDINHA!'.format(idade))
+        elif idade<20:
+            print('Você tem {} anos e sua Categoria INFANTIL.'.format(idade))
+        elif idade <35:
+            print('Você tem {} anos e sua Categoria é Adulto!'.format(idade))
+        elif idade <45:
+            print('Você tem {} anos e sua Categoria é Veterano!'.format(idade))
+        elif idade <60:
+            exame=str(input('Você tem exame?'))
+            if exame not in 'S':
+                print('Faça seu exame')
+
+
+
+
+
 
 
 
