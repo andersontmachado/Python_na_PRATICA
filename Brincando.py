@@ -53,22 +53,11 @@ while opção !=5:
         elif idade <45:
             print('Você tem {} anos e sua Categoria é Veterano!'.format(idade))
         elif idade <60:
-            exame=str(input('Você ja tem exame médico:[Sim ou Não]')).strip().upper()[0]
-            if exame not in 'SS':
+            exame=str(input('Você ja tem exame médico:[S/N]')).strip().upper()[0]
+            if exame not in 'Nn':
                 print('{},Você está apto para participar do CAMPEONATO!'.format(exame))
             else:
-                print('Tem que providenciar o exame!')
-
-
-###programa feito nos meus pensamentos.
-
-
-
-
-
-
-
-
+                print('{},Tem que providenciar o exame!'.format(exame))
 
 
 
@@ -77,5 +66,5 @@ while opção !=5:
 print('FIM')
 
 
-######
+
 
