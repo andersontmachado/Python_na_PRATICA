@@ -36,6 +36,17 @@ while opção !=5:
         elif idade >=18:
             print('Você tem {} anos e a responsabilidade passa a ser sua.'.format(nasc))
             cont+=1
+    elif opção==2:
+        if idade<10:
+            print('Você ainda tem {} anos e sua mãe vai te levar pra igreja!'.format(nasc))
+        elif idade>=10:
+            print('Você tem {} anos,ja pode decidir qual caminho seguir,Se é de DEUS ou do diabo!'.format(nasc))
+    elif opção ==3:
+        if idade<10:
+            idade=atual-ano
+            print('Você tem {} anos e sua categoria é FRALDINHA!'.format(idade))
+
+
 
 
 
