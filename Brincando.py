@@ -55,9 +55,11 @@ while opção !=5:
         elif idade <60:
             exame=str(input('Você ja tem exame médico:[S/N]')).strip().upper()[0]
             if exame not in 'Nn':
-                print('{},Você está apto para participar do CAMPEONATO!'.format(exame))
+                print('Você está apto para participar do CAMPEONATO!')
             else:
-                print('{},Tem que providenciar o exame!'.format(exame))
+                print('Tem que providenciar o exame!')
+                print('NÃO PODE JOGAR!')
+                print('='*30)
 
 
 
