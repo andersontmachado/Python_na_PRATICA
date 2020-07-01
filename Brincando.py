@@ -61,11 +61,16 @@ while opção !=5:
                 print('NÃO PODE JOGAR!')
                 print('='*30)
     elif opção ==4:
-        if idade >5 and <10:
+        if idade >=5 and idade<10:
             idade=atual-ano
-            print('Você tem {} anos,está no ENSINO FUNDAMENTAL')
-        elif idade >10 and <15:
-            print('Você tem {] anos,está no ENSINO INFANTIL'
+            print('Você tem {} anos,está no ENSINO FUNDAMENTAL'.format(idade))
+        elif idade <15:
+            print('Você tem {} anos,está no ENSINO INFANTIL'.format(idade)
+        elif idade <18:
+            print('Você tem {}anos e esta no TERCEIRO GRAU!'.format(idade))
+        print('ACABO')
+
+
 
 
 
