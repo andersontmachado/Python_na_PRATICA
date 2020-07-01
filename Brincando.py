@@ -62,14 +62,12 @@ while opção !=5:
                 print('NÃO PODE JOGAR!')
                 print('='*30)
     elif opção ==4:
-        aluno=str(input('Você ainda estuda?[S/N]').strip().upper()[0])
-        aluno=str
+        aluno1=str(input('Você ainda estuda?[S/N]').strip().upper()[0])
+        aluno2=str(input('Qual seu nome?').strip().upper()[0])
         if aluno not in 'Nn' and idade <=18:
-            print('Você está na escola ainda!')
-        else:
-            print('Senão estudo,não estuda mais!')
-
-
+            idade=atual-ano
+            print('Você tem {} anos, está na escola ainda!'.format(idade))
+        elif
 
 
 
