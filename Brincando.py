@@ -3,17 +3,14 @@ from datetime import date
 print('testandooo......')
 print('-='*20)
 atual=date.today().year
-nome=str(input('Digite seu nome: '))
-sobre=str(input('Digite seu sobrenome: '))
+nome=str(input('Digite seu nome: ')).strip().upper()
+sobre=str(input('Digite seu sobrenome: ')).strip().upper()
 print('Seu nome é {} {}'.format(nome,sobre))
 ano=int(input('Em que ano você nasceu? '))
-soma=0
-opção=0
+soma=opção=cont=0
 idade=atual-ano
 cat=ano
-cont=0
-exame=''
-aluno=''
+exame=aluno=''
 while opção !=5:
     while soma==0:
         if idade <18:
