@@ -10,6 +10,7 @@ idade=atual-ano
 cat=ano
 cont=0
 exame=''
+aluno=0
 while opção !=5:
     while soma==0:
         if idade <18:
@@ -61,14 +62,12 @@ while opção !=5:
                 print('NÃO PODE JOGAR!')
                 print('='*30)
     elif opção ==4:
-        if idade >=5 and idade<10:
-            idade=atual-ano
-            print('Você tem {} anos,está no ENSINO FUNDAMENTAL'.format(idade))
-        elif idade <15:
-            print('Você tem {} anos,está no ENSINO INFANTIL'.format(idade)
-        elif idade <18:
-            print('Você tem {}anos e esta no TERCEIRO GRAU!'.format(idade))
-        print('ACABO')
+        aluno=str(input('Você ainda estuda?[S/N]').strip().upper()[0])
+        aluno=str
+        if aluno not in 'Nn' and idade <=18:
+            print('Você está na escola ainda!')
+        else:
+            print('Senão estudo,não estuda mais!')
 
 
 
