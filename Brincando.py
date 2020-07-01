@@ -3,6 +3,9 @@ from datetime import date
 print('testandooo......')
 print('-='*20)
 atual=date.today().year
+nome=str(input('Digite seu nome: '))
+sobre=str(input('Digite seu sobrenome: '))
+print('Seu nome é {} {}'.format(nome,sobre))
 ano=int(input('Em que ano você nasceu? '))
 soma=0
 opção=0
@@ -65,13 +68,13 @@ while opção !=5:
         aluno=str(input('Você ainda estuda?[S/N]').strip().upper()[0])
         if aluno in 'Nn' and idade <18:
             idade=atual-ano
-            print('Você tem {} anos, tem tempo ainda de estudar!'.format(idade))
+            print('Você tem \033[32m{}\033[m anos, tem tempo ainda de estudar!'.format(idade))
         elif aluno in 'Nn'and idade >=18:
-            print('Você tem {} anos, ta um vagabundo!'.format(idade))
+            print('Você tem \033[31m{}\033[m anos, ta um vagabundo!'.format(idade))
         elif aluno in 'Ss'and idade <18:
-            print('Ainda está estudando!')
+            print('Você tem {} anos e ainda está \033[34mESTUDANDO!\033[m'.format(idade))
         elif aluno in 'Ss'and idade >=18:
-            print('Você tem {} anos e já pode cursar uma faculdade!'.format(idade))
+            print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
 
 print('FIM')
 
