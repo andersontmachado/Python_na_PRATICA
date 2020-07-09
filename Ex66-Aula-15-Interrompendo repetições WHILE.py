@@ -1,12 +1,14 @@
 n=0
 s=0
+nome=''
 while True:
-    n=int(input('Digite um número:'))
-    if n ==999:
+    n=str(input('Digite algum nome:'))
+    if n == 'José':
         break
-    s+=n
-'''print('A soma de {} será {}'.format(n,s))
+    nome+=n
+'''print('A  será {}'.format(n,s))
 IREMOS aprender daqui adiante com F string,uma nova pep que o
 python faz,não precida por format mais,colocamos f depois aspas.'''
-print(f'A SOMA DO VALOR {n} É {s}')
+print('Seu nome é {}'.format(n))
+
 
