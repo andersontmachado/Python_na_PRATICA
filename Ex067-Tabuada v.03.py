@@ -6,7 +6,7 @@ while True:
     for c in range(1,11):
         print(f'{t} x {c:2} = {t*c}')
 print('PROGRAMA ENCERRADO')
-
+...
 
 '''opção=''
 while True:
