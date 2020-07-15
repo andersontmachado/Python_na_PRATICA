@@ -11,11 +11,12 @@ print('PROGRAMA ENCERRADO')
 opção=''
 while True:
     t=int(input('Quer ver a tabuada de qual valor: '))
+    print('='*35)
     for c in range(1,11):
         print(f'{t} x {c:2} = {t*c}')
     opção=str(input('Quer sair:[S/N]').strip().upper()[0])
     if opção == 'N':
-        t=int(input('Quer ver a tabuada de qual valor: '))
+        print('='*35)
     elif opção == 'S':
         print('Corno')
         break
