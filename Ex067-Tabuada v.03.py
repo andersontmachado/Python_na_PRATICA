@@ -21,6 +21,7 @@ while True:
         print('Corno')
         break
 print('FIM')
+'''Esse programinha tentei fazer varias vezes algo da cabeça,consegui,ta funcionando..'''
 
 
 
@@ -34,6 +35,4 @@ print('FIM')
 
 
 
-#programa fiz com resposta para não sair e sair,esta 99% certo,só que ele
-#da uma resposta no final com o numero da tabuada,não conseguii tirar.'''
 
