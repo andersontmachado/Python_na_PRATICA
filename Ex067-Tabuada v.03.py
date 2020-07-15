@@ -7,21 +7,24 @@
         print(f'{t} x {c:2} = {t*c}')
 print('PROGRAMA ENCERRADO')
 ...'''
-
+tipo=0
+cont=0
 opção=' '
 while True:
-    if opção not in 'NS':
-        t=int(input('Quer ver a tabuada de qual valor: ').strip().upper()[0])
-    print('=-' * 30)
-    opção=str(input('Quer sair: [S/N]'))
-    if opção in 'Nn':
-        t=int(input('Quer ver a tabuada de qual valor: '))
-    elif opção in 'Ss':
-        break
+    t=int(input('Quer ver a tabuada de qual valor: '))
     for c in range(1,11):
         print(f'{t} x {c:2} = {t*c}')
+    opção: str(input('Quer sair:[S/N]'))
 
-print('PROGRAMA ENCERRADO!')
+
+
+
+
+
+
+
+
+
 
 
 #programa fiz com resposta para não sair e sair,esta 99% certo,só que ele
