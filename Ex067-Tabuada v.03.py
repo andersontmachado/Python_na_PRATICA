@@ -7,14 +7,20 @@
         print(f'{t} x {c:2} = {t*c}')
 print('PROGRAMA ENCERRADO')
 ...'''
-tipo=0
-cont=0
-opção=' '
+
+opção=''
 while True:
     t=int(input('Quer ver a tabuada de qual valor: '))
     for c in range(1,11):
         print(f'{t} x {c:2} = {t*c}')
-    opção: str(input('Quer sair:[S/N]'))
+    opção=str(input('Quer sair:[S/N]').strip().upper()[0])
+    if opção == 'N':
+        t=int(input('Quer ver a tabuada de qual valor: '))
+    elif opção == 'S':
+        print('Corno')
+        break
+print('FIM')
+
 
 
 
