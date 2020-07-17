@@ -2,9 +2,11 @@ total18=0
 totalh=0
 totalm=0
 total20=0
+print('-'*30)
 while True:
     idade=int(input('Idade: '))
     sexo=' '
+    print('-'*30)
     while sexo not in 'MF':
         sexo = str(input('Sexo:[M/F] ').strip().upper()[0])
     if idade >=18:
@@ -17,8 +19,10 @@ while True:
         total20+=1
 
     resp=' '
+    print('-'*30)
     while resp not in 'SN':
         resp=str(input('Quer continuar:[S/N] ').strip().upper()[0])
+        print('-'*30)
     if resp == 'N':
         break
 print(f'Temos {total18} pessoas maiores de 18 anos.')
