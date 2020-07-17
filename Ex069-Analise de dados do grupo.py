@@ -26,7 +26,8 @@ print(f'Foram cadastrado {totalh} homens.')
 print(f'Temos {totalm} mulheres com menos de 20 anos.')
 print(f'Temos {total20} mulheres acima dos 20 anos.')
 
-
+#Programinha parece dificil,mais não é tanto não,acrescentei tambem no final o numero
+#mulheres com mais de 20 anos.
 
 
 
