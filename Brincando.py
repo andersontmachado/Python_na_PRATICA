@@ -74,37 +74,38 @@ while opção !=99:
             print('Você tem {} anos e ainda está \033[34mESTUDANDO!\033[m'.format(idade))
         elif aluno in 'Ss'and idade >=18:
             print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
-    elif opção ==5:
-        itens='PEDRA','PAPEL','TESOURA'
-        computador=randint(0,2)
-        print('''Digite a opção
+    while True:
+         if opção ==5:
+            itens='PEDRA','PAPEL','TESOURA'
+            computador=randint(0,2)
+            print('''Digite a opção
                 [0]PEDRA
                 [1]PAPEL
                 [2]TESOURA''')
-        jogador=int(input('Qual sua jogada: '))
-        print('O jogador jogou {}'.format(itens[jogador]))
-        print('O computador jogou {}'.format(itens[computador]))
-        if computador == 0:
-            if jogador ==0:
-                print('Empate')
-            elif jogador ==1:
-                print('Jogador Venceu')
-            elif jogador ==2:
-                print('Computador Venceu')
-        if computador == 1:
-            if jogador ==0:
-                print('Computador Venceu')
-            elif jogador ==1:
-                print('Empate')
-            elif jogador ==2:
-                print('Computador Venceu')
-        if computador ==2:
-            if jogador==0:
-                print('Jogador Venceu')
-            elif jogador==1:
-                print('Computador Venceu')
-            elif jogador ==2:
-                print('Empate')
+            jogador=int(input('Qual sua jogada: '))
+            print('O jogador jogou {}'.format(itens[jogador]))
+            print('O computador jogou {}'.format(itens[computador]))
+            if computador == 0:
+                if jogador ==0:
+                    print('Empate')
+                elif jogador ==1:
+                    print('Jogador Venceu')
+                elif jogador ==2:
+                    print('Computador Venceu')
+            if computador == 1:
+                if jogador ==0:
+                    print('Computador Venceu')
+                elif jogador ==1:
+                    print('Empate')
+                elif jogador ==2:
+                    print('Computador Venceu')
+            if computador ==2:
+                if jogador==0:
+                    print('Jogador Venceu')
+                elif jogador==1:
+                    print('Computador Venceu')
+                elif jogador ==2:
+                    print('Empate')
 
 
 
