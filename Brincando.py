@@ -1,5 +1,6 @@
 from time import sleep
 from datetime import date
+from random import randint
 print('testandooo......')
 print('-='*20)
 atual=date.today().year
@@ -11,7 +12,7 @@ soma=opção=cont=0
 idade=atual-ano
 cat=ano
 exame=aluno=''
-while opção !=5:
+while opção !=99:
     while soma==0:
         if idade <18:
             sleep(0)
@@ -25,7 +26,8 @@ while opção !=5:
     [2]Igreja
     [3]Futebol
     [4]Escola
-    [5]Sair''')
+    [5]Jogos
+    [99]Sair''')
     opção = int(input('Qual sua opção:'))
     nasc = 2020 - cat
     if opção ==1:
@@ -72,6 +74,20 @@ while opção !=5:
             print('Você tem {} anos e ainda está \033[34mESTUDANDO!\033[m'.format(idade))
         elif aluno in 'Ss'and idade >=18:
             print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
+    elif opção ==5:
+        itens='PEDRA','PAPEL','TESOURA'
+        computador=randint(0,2)
+        print('''Digite a opção)
+                [0]PEDRA
+                [1]PAPEL
+                [2]TESOURA'''))
+        jogada=str(input('Qual sua jogada: '))
+
+
+
+
+
+
 
 print('FIM')
 
