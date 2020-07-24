@@ -81,12 +81,9 @@ while opção !=99:
                 [0]PEDRA
                 [1]PAPEL
                 [2]TESOURA''')
-        jogada=int(input('Qual sua jogada: '))
-        print('O jogador jogou {}'.format(itens[jogada])
-        print('O computador jogou {}'.format(itens[computador])
-
-
-
+        jogador=int(input('Qual sua jogada: '))
+        print('O jogador jogou {}'.format(itens[jogador]))
+        print('O computador jogou {}'.format(itens[computador]))
 
 
 
