@@ -77,11 +77,21 @@ while opção !=99:
     elif opção ==5:
         itens='PEDRA','PAPEL','TESOURA'
         computador=randint(0,2)
-        print('''Digite a opção)
+        print('''Digite a opção
                 [0]PEDRA
                 [1]PAPEL
-                [2]TESOURA'''))
-        jogada=str(input('Qual sua jogada: '))
+                [2]TESOURA''')
+        jogada=int(input('Qual sua jogada: '))
+        print('O jogador jogou {}'.format(itens[jogada])
+        print('O computador jogou {}'.format(itens[computador])
+
+
+
+
+
+
+
+
 
 
 
