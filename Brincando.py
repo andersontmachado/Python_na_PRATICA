@@ -84,6 +84,33 @@ while opção !=99:
         jogador=int(input('Qual sua jogada: '))
         print('O jogador jogou {}'.format(itens[jogador]))
         print('O computador jogou {}'.format(itens[computador]))
+        if computador == 0:
+            if jogador ==0:
+                print('Empate')
+            elif jogador ==1:
+                print('Jogador Venceu')
+            elif jogador ==2:
+                print('Computador Venceu')
+        if computador == 1:
+            if jogador ==0:
+                print('Computador Venceu')
+            elif jogador ==1:
+                print('Empate')
+            elif jogador ==2:
+                print('Computador Venceu')
+        if computador ==2:
+            if jogador==0:
+                print('Jogador Venceu')
+            elif jogador==1:
+                print('Computador Venceu')
+            elif jogador ==2:
+                print('Empate')
+        jogador=int(input('Qual sua jogada: '))
+
+
+
+
+
 
 
 
