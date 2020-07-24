@@ -105,7 +105,7 @@ while opção !=99:
                 print('Computador Venceu')
             elif jogador ==2:
                 print('Empate')
-        jogador=int(input('Qual sua jogada: '))
+
 
 
 
