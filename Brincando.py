@@ -83,6 +83,11 @@ while opção !=99:
                 [1]PAPEL
                 [2]TESOURA''')
             jogador=int(input('Qual sua jogada: '))
+            print('JÓÓÓ')
+            sleep(2)
+            print('KEEN')
+            sleep(2)
+            print('POWWW')
             print('O jogador jogou {}'.format(itens[jogador]))
             print('O computador jogou {}'.format(itens[computador]))
             if computador == 0:
@@ -106,7 +111,6 @@ while opção !=99:
                     print('Computador Venceu')
                 elif jogador ==2:
                     print('Empate')
-
 
 
 
