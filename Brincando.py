@@ -78,18 +78,21 @@ while opção !=99:
          if opção ==5:
             itens='PEDRA','PAPEL','TESOURA'
             computador=randint(0,2)
+            print('='*20)
             print('''Digite a opção
                 [0]PEDRA
                 [1]PAPEL
                 [2]TESOURA''')
+            print('='*20)
             jogador=int(input('Qual sua jogada: '))
             print('JÓÓÓ')
             sleep(2)
             print('KEEN')
             sleep(2)
             print('POWWW')
-            print('O jogador jogou {}'.format(itens[jogador]))
-            print('O computador jogou {}'.format(itens[computador]))
+            sleep(2)
+            print('O jogador jogou \033[32m{}\033[m'.format(itens[jogador]))
+            print('O computador jogou \033[31m{}\033[m'.format(itens[computador]))
             if computador == 0:
                 if jogador ==0:
                     print('Empate')
@@ -111,23 +114,6 @@ while opção !=99:
                     print('Computador Venceu')
                 elif jogador ==2:
                     print('Empate')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print('FIM')
 
 
