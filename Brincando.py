@@ -91,29 +91,29 @@ while opção !=99:
             sleep(2)
             print('POWWW')
             sleep(2)
-            print('O jogador jogou \033[32m{}\033[m'.format(itens[jogador]))
-            print('O computador jogou \033[31m{}\033[m'.format(itens[computador]))
+            print('O jogador jogou \033[4:32:m{}\033[m'.format(itens[jogador]))
+            print('O computador jogou \033[4:31:m{}\033[m'.format(itens[computador]))
             if computador == 0:
                 if jogador ==0:
-                    print('Empate')
+                    print('\033[7:36mEmpate\033[m')
                 elif jogador ==1:
-                    print('Jogador Venceu')
+                    print('\033[7:36mJogador Venceu\033[m')
                 elif jogador ==2:
-                    print('Computador Venceu')
+                    print('\033[7:36:46mComputador Venceu\033[m')
             if computador == 1:
                 if jogador ==0:
-                    print('Computador Venceu')
+                    print('\033[7:36:46mComputador Venceu\033[m')
                 elif jogador ==1:
-                    print('Empate')
+                    print('\033[7:36:46mEmpate\033[m')
                 elif jogador ==2:
-                    print('Computador Venceu')
+                    print('\033[7:36:46mComputador Venceu\033[m')
             if computador ==2:
                 if jogador==0:
-                    print('Jogador Venceu')
+                    print('\033[7:36:46mJogador Venceu\033[m')
                 elif jogador==1:
-                    print('Computador Venceu')
+                    print('\033[0:36:46mComputador Venceu\033[m')
                 elif jogador ==2:
-                    print('Empate')
+                    print('\033[0:36:46mEmpate\033[m')
 print('FIM')
 
 
