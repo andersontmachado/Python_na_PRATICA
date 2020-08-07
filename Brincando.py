@@ -75,7 +75,7 @@ while opção !=99:
         elif aluno in 'Ss'and idade >=18:
             print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
     while True:
-        while opção !=999:
+        n
             if opção ==5:
                 itens='PEDRA','PAPEL','TESOURA'
                 computador=randint(0,2)
