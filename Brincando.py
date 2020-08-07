@@ -75,47 +75,48 @@ while opção !=99:
         elif aluno in 'Ss'and idade >=18:
             print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
     while True:
+        while opção !=999:
             if opção ==5:
-            itens='PEDRA','PAPEL','TESOURA'
-            computador=randint(0,2)
-            print('='*20)
-            print('''Digite a opção
-                [0]PEDRA
-                [1]PAPEL
-                [2]TESOURA
-                [99]SAIR''')
-            print('='*20)
-            jogador=int(input('Qual sua jogada: '))
-            print('JÓÓÓ')
-            sleep(2)
-            print('KEEN')
-            sleep(2)
-            print('POWWW')
-            sleep(2)
-        print('O jogador jogou \033[32:m{}\033[m'.format(itens[jogador]))
-        print('O computador jogou \033[31:m{}\033[m'.format(itens[computador]))
-            if computador == 0:
-                if jogador ==0:
-                    print('\033[7:36mEmpate\033[m')
-                elif jogador ==1:
-                    print('\033[7:36mJogador Venceu\033[m')
-                elif jogador ==2:
-                    print('\033[7:36mComputador Venceu\033[m')
-            if computador == 1:
-                if jogador ==0:
-                    print('\033[7:36mComputador Venceu\033[m')
-                elif jogador ==1:
-                    print('\033[7:36mEmpate\033[m')
-                elif jogador ==2:
-                    print('\033[7:36mComputador Venceu\033[m')
-            if computador ==2:
-                if jogador==0:
-                    print('\033[7:36mJogador Venceu\033[m')
-                elif jogador==1:
-                    print('\033[7:36mComputador Venceu\033[m')
-                elif jogador ==2:
-                    print('\033[7:36mEmpate\033[m')
+                itens='PEDRA','PAPEL','TESOURA'
+                computador=randint(0,2)
+                print('='*20)
+                print('''Digite a opção
+                    [0]PEDRA
+                    [1]PAPEL
+                    [2]TESOURA
+                    [999]SAIR''')
+                print('='*20)
+                jogador=int(input('Qual sua jogada: '))
+                print('JÓÓÓ')
+                sleep(1)
+                print('KEEN')
+                sleep(1)
+                print('POWWW')
+                sleep(1)
+                print('O jogador jogou \033[32:m{}\033[m'.format(itens[jogador]))
+                print('O computador jogou \033[31:m{}\033[m'.format(itens[computador]))
 
+                if computador == 0:
+                    if jogador ==0:
+                        print('\033[7:36mEmpate\033[m')
+                    elif jogador ==1:
+                        print('\033[7:36mJogador Venceu\033[m')
+                    elif jogador ==2:
+                        print('\033[7:36mComputador Venceu\033[m')
+                if computador == 1:
+                    if jogador ==0:
+                        print('\033[7:36mComputador Venceu\033[m')
+                    elif jogador ==1:
+                        print('\033[7:36mEmpate\033[m')
+                    elif jogador ==2:
+                        print('\033[7:36mComputador Venceu\033[m')
+                if computador ==2:
+                    if jogador==0:
+                        print('\033[7:36mJogador Venceu\033[m')
+                    elif jogador==1:
+                        print('\033[7:36mComputador Venceu\033[m')
+                    elif jogador ==2:
+                        print('\033[7:36mEmpate\033[m')
 
 
 print('FIM')
