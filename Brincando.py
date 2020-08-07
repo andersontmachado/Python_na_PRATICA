@@ -75,7 +75,7 @@ while opção !=99:
         elif aluno in 'Ss'and idade >=18:
             print('Você tem \033[33m{}\033[m anos e já pode cursar uma faculdade!'.format(idade))
     while True:
-        if opção ==5:
+            if opção ==5:
             itens='PEDRA','PAPEL','TESOURA'
             computador=randint(0,2)
             print('='*20)
@@ -92,9 +92,8 @@ while opção !=99:
             sleep(2)
             print('POWWW')
             sleep(2)
-            print('O jogador jogou \033[32:m{}\033[m'.format(itens[jogador]))
-            print('O computador jogou \033[31:m{}\033[m'.format(itens[computador]))
-        while True:
+        print('O jogador jogou \033[32:m{}\033[m'.format(itens[jogador]))
+        print('O computador jogou \033[31:m{}\033[m'.format(itens[computador]))
             if computador == 0:
                 if jogador ==0:
                     print('\033[7:36mEmpate\033[m')
@@ -116,9 +115,7 @@ while opção !=99:
                     print('\033[7:36mComputador Venceu\033[m')
                 elif jogador ==2:
                     print('\033[7:36mEmpate\033[m')
-            else:
-                print('PROGRAMA ENCERRADO')
-                break
+
 
 
 print('FIM')
