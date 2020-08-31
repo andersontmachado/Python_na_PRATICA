@@ -26,6 +26,6 @@ while True:
             break
 
 print('='*50)
-print('Muito Obrigado por utilizar o BANCO ANDERSON')
+print('TESTANDO.....Muito Obrigado por utilizar o BANCO ANDERSON')
 
 
