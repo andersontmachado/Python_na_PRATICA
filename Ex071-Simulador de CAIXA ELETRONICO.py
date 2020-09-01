@@ -21,7 +21,7 @@ while True:
         totalcéd=0
         if total ==0:
             break
-        
+
 
 
 print('='*50)
