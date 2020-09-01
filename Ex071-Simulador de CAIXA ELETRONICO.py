@@ -21,9 +21,8 @@ while True:
         totalcéd=0
         if total ==0:
             break
-        else:
-            print('Dados Inválidos')
-            break
+        
+
 
 print('='*50)
 print('TESTANDO.....Muito Obrigado por utilizar o BANCO ANDERSON')
