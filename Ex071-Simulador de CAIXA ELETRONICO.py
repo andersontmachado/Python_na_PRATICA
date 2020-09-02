@@ -25,7 +25,7 @@ while total !=0:
             if total ==0:
                 break
 
-
+### ESSE PROGRAAM ACRESCENTEI A NOTA DE 100 REAIS,E TAMBÉM VALORES QUEBRADOS,ELE PARA O PROGRAMA....DEU CERTO
 
 print('='*50)
 print('.....Muito Obrigado por utilizar o BANCO ANDERSON')
