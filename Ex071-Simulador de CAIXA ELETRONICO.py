@@ -5,26 +5,27 @@ saque=int(input('Qual valor você quer sacar?R$'))
 total=saque
 céd=100
 totalcéd=0
-while True:
-    if total>=céd:
-        total-=céd
-        totalcéd+=1
-    else:
-        if totalcéd>0:
-            print(f'Total de {totalcéd} cédulas de R${céd}')
-        if céd==100:
-            céd=50
-        elif céd==50:
-            céd=20
-        elif céd ==20:
-            céd=10
-        totalcéd=0
-        if total ==0:
-            break
+while total !=0:
+    print('Dados Invalidos!')
+    break
+    while True:
+        if total>=céd:
+            total=céd
+            totalcéd+=1
+        else:
+            if totalcéd>0:
+                print(f'Total de {totalcéd} cédulas de R${céd}')
+            if céd==100:
+                céd=50
+            elif céd==50:
+                céd=20
+            elif céd ==20:
+                céd=10
+                totalcéd=0
+            if total ==0:
+                break
 
 
 
 print('='*50)
-print('TESTANDO.....Muito Obrigado por utilizar o BANCO ANDERSON')
-
-
+print('.....Muito Obrigado por utilizar o BANCO ANDERSON')
