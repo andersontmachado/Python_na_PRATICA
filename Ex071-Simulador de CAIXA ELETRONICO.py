@@ -5,6 +5,7 @@ saque=int(input('Qual valor você quer sacar?R$'))
 total=saque
 céd=100
 totalcéd=0
+cont=0
 while True:
     if total>=céd:
         total-=céd
@@ -21,6 +22,9 @@ while True:
         totalcéd=0
         if total ==0:
             break
+        elif total ==1:
+            print('Não existe valor a ser sacado.')
+            print('Tente outra quantia!')
 
 
 
