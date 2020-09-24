@@ -22,12 +22,8 @@ while True:
         totalcéd=0
         if total ==0:
             break
-        elif total ==1:
-            print('Não existe valor a ser sacado.')
-            print('Tente outra quantia!')
-
-
-
+        else:
+            print('dados incorretos')
 print('='*50)
 print('TESTANDO.....Muito Obrigado por utilizar o BANCO ANDERSON')
 
