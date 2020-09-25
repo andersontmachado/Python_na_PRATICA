@@ -11,9 +11,6 @@ print('TIMES CAMPEÕES')'''
 
 '''for cont in range(0,len(times)):
     print(f'Eu vou torcer para o {times[cont]} na posição {cont}')'''
-for pos,futebol in enumerate(times):
-    print(f'Eu vou torcer para o {futebol} na posição{pos})
-print('TIMES CAMPEÕES')
 
 
 
