@@ -3,7 +3,7 @@ times=('São Paulo','Corinthians','Palmeiras','Santos')
 #times[1]='Vasco'da esse erro>TypeError: 'tuple' object does not support item assignment
 #não consiguimos atribir valores a tupla.
 
-#3 soluções para implementar numa tulpa com FOR
+#3 soluções para implementar numa tupla com FOR
 
 '''for futebol in times:
     print(f'Os times grande paulistas são {futebol}')
