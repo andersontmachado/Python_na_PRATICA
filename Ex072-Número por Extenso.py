@@ -11,16 +11,16 @@ while True:
         print('Tente novamente...')
     print(f'O número digitado foi {cont[núm]}')
     opção=' '
+    soma=0
     for c in range(0,21):
         while opção not in 'SN':
             opção = str(input('Quer continuar:[S/N] ').strip().upper()[0])
             if opção == 'S':
-                núm=int(input('Digite um número de 0 a 20: '))
+                núm=int(input('Digite umm número de 0 a 20: '))
                 print(f'O número digitado foi {cont[núm]}')
+                soma+=1
             else:
-                print('Programa Finalizado')
-    print('FIM')
-
+                break
 
 
 
