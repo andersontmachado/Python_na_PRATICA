@@ -17,9 +17,10 @@ while True:
             if opção == 'S':
                 núm=int(input('Digite um número de 0 a 20: '))
                 print(f'O número digitado foi {cont[núm]}')
-            if opção == 'N':
-                break
-print('Programa Finalizado')
+            else:
+                print('Programa Finalizado')
+    print('FIM')
+
 
 
 
