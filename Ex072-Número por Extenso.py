@@ -5,6 +5,10 @@ while True:
     núm = int(input('Digite um número de 0 a 20: '))
     if núm <=20:
         break
+    print('Tente novamente...')
+print(f'O número digitado foi {cont[núm]}')
+
+
 
 
 
