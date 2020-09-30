@@ -11,7 +11,7 @@ while True:
         print('Tente novamente...')
     print(f'O número digitado foi {cont[núm]}')
     opção=' '
-    for opção in range(0,21):
+    for c in range(0,21):
         while opção not in 'SN':
             opção = str(input('Quer continuar:[S/N] ').strip().upper()[0])
             if opção == 'S':
