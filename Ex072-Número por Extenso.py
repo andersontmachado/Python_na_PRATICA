@@ -18,9 +18,5 @@ while True:
             if opção == 'S':
                 núm=int(input('Digite umm número de 0 a 20: '))
                 print(f'O número digitado foi {cont[núm]}')
-                soma+=1
-            else:
-                break
 
-
-
+            print('FIM')
