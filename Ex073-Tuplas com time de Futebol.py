@@ -12,8 +12,7 @@ print(list(tabela))
 ##coloquei a lista aqui pra tentar inumerar do 1 ao 20,mais sem sucesso,um debaixo do outro,
 
 
-#Esse exercicío até a ordem alfabetica acertei sozinho,sem olhar,o Index não ia lembrar
-
+####Esse exercicío até a ordem alfabetica acertei sozinho,sem olhar,o Index não ia lembrar
 
 
 
