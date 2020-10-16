@@ -12,6 +12,7 @@ for pos in range(0,len(listagem)):
         print(f'{listagem[pos]:.<30}',end='')
     else:
         print(f'{listagem[pos]:>7.2f}')
+#ESSE EXERCICIO NÃO FUI MUITO BEM NÃO.FICO MEIO CONFUSO
 
 
 
