@@ -20,7 +20,7 @@ for p in range(1,5):
 
 
 mediaidade=idade/4
-print('A media de idade do grupo é {}'.format(mediaidade))
+print('A média de idade do grupo é {}'.format(mediaidade))
 print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem,nomevelho))
 print('Ao todo são {} mulher(s) menores de 20 anos.'.format(totmulher))
 #Esse exercicio tentei fazer se as idade forem iguais,mais nao consegui,mais depois vou conseguir!
