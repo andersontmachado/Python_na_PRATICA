@@ -2,6 +2,8 @@
 palavras.sort(reverse=True)
 print(f'Essa lista tem {len(palavras)} elementos')'''
 
+#FIZ varios,com SORT,SORT(REVERSE),APPEND, INSERT,TODOS FUNCIONO
+
 
 
 num=[0,4,5,6,8,2,1]
