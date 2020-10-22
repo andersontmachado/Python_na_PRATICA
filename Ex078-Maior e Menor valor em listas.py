@@ -21,5 +21,5 @@ for i,v in enumerate(listanum):
     if v==menor:
         print(f'{i}')
 
-
+###
 
