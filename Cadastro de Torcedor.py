@@ -15,7 +15,14 @@ while True:
     if len(cpf)<11:
         cpf=cpf.zfill(11)
     tamanho_cpf =str(input('{}.{}.{}-{}'.format(cpf[:3], cpf[3:6], cpf[6:9], cpf[9:])))
-    print('Seu cpf é válido')
+    print('CPF VÁLIDO!')
+    if len(cpf)>11:
+        print('CPF INVÁLIDO')
+        break
+print('Fim')
+
+
+
 
 
 
