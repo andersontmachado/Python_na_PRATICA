@@ -25,19 +25,22 @@ while True:
             print('Válido')
         else:
             print('Inválido! Tem direito você e mais duas pessoas!')
-    while True:
+            break
+    print('FINAL')
+    while opção !=4:
         print('''Os Ingressos disponiveis são: 
          [1]Arquibancada
          [2]Numeradas
          [3]Camarotes
          [4]Sair''')
         opção=str(input('Qual sua opção: '))
-            if opção ==1:
+        if opção ==1:
             ingresso_arq=str('O Ingresso para arquibancada custará R$30,00 Aceita[S/N]')
-            if opção == 'Ss':
+        if opção == 'Ss':
             quantos_ingresso=str(input('Quantidade?'))
-            else:
-                break
+        else:
+            break
+print('SAIU')
 print('Tente Novamente....')
 
 
