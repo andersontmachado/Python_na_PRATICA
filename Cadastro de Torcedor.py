@@ -28,6 +28,9 @@ while True:
 
 
 
+
+
+
 '''while True:
         ingresso=int(input('Deseja quantos ingressos: '))
         if ingresso > 0 and ingresso <=3:
