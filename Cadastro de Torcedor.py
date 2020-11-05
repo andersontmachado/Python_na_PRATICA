@@ -8,7 +8,6 @@ sleep(1)
 ingresso=c=0
 cpf=str
 opção=0
-c=0
 while True:
     torcedor=str(input('Digite seu Nome: ').strip().upper())
     sobreno=str(input('Digite seu sobrenome: ').strip().upper())
@@ -21,19 +20,24 @@ while True:
     if len(cpf)>11:
         print('CPF INVÁLIDO')
         break
-    print('''Pra qual local você quer assistir o jogo
+    while opção !=5:
+        print('''Preços dos Ingresso:
           [1]ARQUIBANCADA
           [2]NUMERADA
           [3]CADEIRAS
           [4]SAIR''')
-    opção=int(input('Qual sua opção: '))
-    while opção == 1:
+        opção = int(input('Qual sua opção: '))
         if opção ==1:
             print('Arquibancada você optou,custa R$30,00.')
-            opção+=1
+            break
         elif opção==2:
             print('As numeradas custará R$50,00')
-            opção+=1
+            break
+        elif opção ==3:
+            print('As cadeiras são mais caras,vão custar R$100,00')
+            break
+        elif opção ==4:
+            break
 
 
 print('saiu..')
