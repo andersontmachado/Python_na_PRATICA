@@ -22,7 +22,15 @@ for indice in range(0,len(escola)):
     print('Curso....',curso[indice])
     print('Valor....',valores[indice])
     print('=-'*40)
-    
+
+desconto=input('Digite o equipamento que será descontado: ')
+for indice in range(0,len(escola)):
+    if desconto == escola[indice]:
+        print('Valor antigo....',valores[indice])
+        valores[indice]=valores[indice]*0.9
+        print('Valor novo....',valores[indice])
+
+
 
 
 
