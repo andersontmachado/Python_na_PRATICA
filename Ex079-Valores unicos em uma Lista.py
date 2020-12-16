@@ -8,6 +8,17 @@ for c,v in enumerate(show):
     print('=-'*30)
 print('Cheguei ao final da lista')'''
 #Exercicio feito para relembrar LISTAS, então improvisei montando shows.
+a=[2,4,7,9]
+b=a[:]#CÓPIA
+b[1]=83#ACRESCENTAMOS O VALOR,dai muda na posição,[1] ou [2] ou [3],a qual voce preferir.
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+'''Quando se coloca normal assim, sem o [:](cópia),ele repete as duas listas,para acrescentar o valor,devemos fazer
+sempre uma cópia, então para não copiar,colocamos o fatiamento,[:].'''
+
+
+
+
 
 
 
