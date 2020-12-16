@@ -39,3 +39,4 @@ sempre uma cópia, então para não copiar,colocamos o fatiamento,[:].'''
 
 
 
+
