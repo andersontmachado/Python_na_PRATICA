@@ -13,4 +13,5 @@ print('\033[1;32mBORA COMEMORAR\033[m!!!!!')
 #Vai mostra depois de dois segundos o BORA COMEMORAR
 #Vai mostra as cores em BORA COMEMORAR
 
-# PROGRAMA BÁSICO PARA COLOCAR NO GIT E NO GIT HUB
+
+#Mandando o programa para o GIT E GIT HUB
