@@ -27,8 +27,15 @@ if 'pizza' in lanche:
     lanche.remove('pizza') é uma maneira bem interessante e válido de utilizar esse metodo.
 #EM TODOS ESSES CASOS IRÁ ELIMINAR.,todos foram testados e funciono perfeitamente.'''
 
+lanche[2]='cardapio'
+#se eu colocar o indice numero 6,ele da erro,portanto só vale o que esta nos indice,de 0 a 5 no exemplo do lanche
+lanche.insert(4,'cama')
+#pra inserir um item em alguma posição,devemos colocar Insert e nao append
+#Metodo append é só pra adicionar um item no final.
 
 
+
+print(lanche)
 
 
 
