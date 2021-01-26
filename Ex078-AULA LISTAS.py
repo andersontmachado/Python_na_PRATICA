@@ -26,22 +26,35 @@ print(lanche)
 if 'pizza' in lanche:
     lanche.remove('pizza') é uma maneira bem interessante e válido de utilizar esse metodo.
 #EM TODOS ESSES CASOS IRÁ ELIMINAR.,todos foram testados e funciono perfeitamente.'''
+#=-----===-------==---===--=-=======================----------------------
 
-lanche[2]='cardapio'
+'''lanche[2]='cardapio'
 #se eu colocar o indice numero 6,ele da erro,portanto só vale o que esta nos indice,de 0 a 5 no exemplo do lanche
 lanche.insert(4,'cama')
 #pra inserir um item em alguma posição,devemos colocar Insert e nao append
 #Metodo append é só pra adicionar um item no final.
 lanche.sort()
-#fiz o teste em palavras,eele retorno com ordem alfabetica,assim serve para números também
+#fiz o teste em palavras,ele retorno com ordem alfabetica,assim serve para números também
 lanche.sort(reverse=True)
 #ordem alfabetica de traz pra frente,funciono também.
 if 'pizza' in lanche:#quando colocar string,deve-se sempre colocar entre aspas,senão da erro
     lanche.pop() #sempre em aspas
 else:
     print('Não achei o desejado.')
-print(lanche)
+print(f'Essa lista tem {len(lanche)} elementos.')
+print(lanche)'''
+#===============================================------------------------------------------
 
+#COMEÇAR OUTRA MANEIRA,TODAS ESTAO FUNCIONANDO EM CIMA,PRA APRENDER MESMO LEGAL...
+
+
+valores=[]
+valores.append('zona')
+valores.append('puteiro')
+valores.append('cerveja')
+for c, v in enumerate(valores):#enumerate serve para mostrar tanto o indice(chaves),ele pega tanto a chave como valor.
+    print(f'Na posição {c},encontrei o valor {v}...')
+print('Cheguei ao final da lista!!!')
 
 
 
