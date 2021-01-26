@@ -32,9 +32,14 @@ lanche[2]='cardapio'
 lanche.insert(4,'cama')
 #pra inserir um item em alguma posição,devemos colocar Insert e nao append
 #Metodo append é só pra adicionar um item no final.
-
-
-
+lanche.sort()
+#fiz o teste em palavras,eele retorno com ordem alfabetica,assim serve para números também
+lanche.sort(reverse=True)
+#ordem alfabetica de traz pra frente,funciono também.
+if 'pizza' in lanche:#quando colocar string,deve-se sempre colocar entre aspas,senão da erro
+    lanche.pop() #sempre em aspas
+else:
+    print('Não achei o desejado.')
 print(lanche)
 
 
