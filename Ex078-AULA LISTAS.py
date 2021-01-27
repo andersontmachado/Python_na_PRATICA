@@ -46,12 +46,16 @@ print(lanche)'''
 #===============================================------------------------------------------
 
 #COMEÇAR OUTRA MANEIRA,TODAS ESTAO FUNCIONANDO EM CIMA,PRA APRENDER MESMO LEGAL...
+valores=list()
+for cont in range(0,5):
+    valores.append(int(input('Digite um valor: ')))
+    valores.sort()#fiz sozinho,deu certo,na hora de responder nas posiçoes,deu como ordem numerica...muito bom Anderson
 
-
-valores=[]
+'''valores=list()#tanto valores=[](conjunto vazio,como list() da na mesma
 valores.append('zona')
 valores.append('puteiro')
-valores.append('cerveja')
+valores.append('cerveja')'''#esta como comentario,pq fiz direto do for in range,para o for c,v in enumerate.só isso...
+
 for c, v in enumerate(valores):#enumerate serve para mostrar tanto o indice(chaves),ele pega tanto a chave como valor.
     print(f'Na posição {c},encontrei o valor {v}...')
 print('Cheguei ao final da lista!!!')
