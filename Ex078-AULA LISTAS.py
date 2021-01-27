@@ -68,6 +68,15 @@ print('Cheguei ao final da lista!!!')
 ##########################################################################################################
 ##########################################################################################################'''
 
+a=[1,4,6,8,9,3]
+b=a[:]#cópia dos valores,só assim para a lista b,não fazer ligação com a lista a.,FAZENDO CÓPIA.
+#apartir do momento que igualo uma lista na loutra,o python cria uma ligação entre ela..Ligação
+#existe uma maneira de fazer isso para receber um item, fatiamento...[:]
+
+b[4]=5
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+
 
 
 
