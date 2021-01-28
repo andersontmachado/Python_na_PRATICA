@@ -16,6 +16,7 @@ else:
 
 '''Esse exercicio foi muito simples,porem tive dificuldade,a base acertei,os nome,sort reverse eu sabia
 valores.append eu sabia,nao precisa colocar quando a resposta for sim uma variavel,tipo...resp='S',nao precisa
+o len tambem acertei quando contar os elementos,enfim,a basei eu até acertei,faltou implementar no programa,a lógica,to pecando nisso.
 '''
 
 
