@@ -7,4 +7,3 @@ elif n2 > n1:
 else:
     print('Os dois valores são iguais.')
 
-##############
