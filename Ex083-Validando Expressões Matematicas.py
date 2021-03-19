@@ -13,3 +13,4 @@ for simb in expr:
             print('Sua expressão esta válida!')
         else:
             print('Sua expressão esta errada!')
+###
