@@ -8,7 +8,7 @@ while resposta == "S":
     valores.append(float(input("Valor: ")))
     seriais.append(int(input("Número Serial: ")))
     departamentos.append(input("Departamento: "))
-    resposta = input("Digite \"S\" para continuar: ").upper()
+    resposta = input("Digite \"S\" para continuar ou \'N\'para sair: ").upper()
 desconto=input("\nDigite o nome do equipamento que será descontado: ")
 for indice in range(0,len(equipamentos)):
     if desconto==equipamentos[indice]:
