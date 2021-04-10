@@ -9,7 +9,9 @@ for l in range(0,3):# dentro do for (l)linha faremos um outro for,agora para (c)
 print('-='*30)
 for l in range(0,3):
     for c in range(0,3):
-#        print(f'[{matriz[l][c]}]',end='')
-print(matriz)
+#       print(f'[{matriz[l][c]}]',end='')
+        print(f'[{matriz[l][c]:^5}]',end='')
+    print()
+
 
 
