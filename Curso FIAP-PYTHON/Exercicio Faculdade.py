@@ -5,7 +5,7 @@ for c in range(1,4):
     pessoa.append(str(input('Aluno: ')))
     pessoa.append(float(input('Altura: ')))
     if len(princ)==0:
-        mai=men==pessoa[1]
+        mai=pessoa[1]
     else:
         if pessoa[1]>mai:
             mai=pessoa[1]
