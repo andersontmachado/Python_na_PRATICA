@@ -1,5 +1,5 @@
-pessoa=list()
-princ=list()
+pessoa=[]
+princ=[]
 mai=men=0
 for p in range(1,4):
     pessoa.append(str(input('Aluno: ')))
@@ -15,7 +15,7 @@ for p in range(1,4):
 
    # print(f'Os dados foram {princ}')Era só pr testar,não estava pedindo essa analise
 print(f'Ao todo você cadastrou {len(princ)} pessoas.')
-print(f'{pessoa[0]} ',end='')
+print(f'{pessoa} ',end='')
 print(f' {mai} metros.É o maior!')
 
 
