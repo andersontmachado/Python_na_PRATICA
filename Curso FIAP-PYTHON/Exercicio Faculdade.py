@@ -20,7 +20,4 @@ print()
 
 
 
-#####################
-# Existe só um jeito de fazer isso, eu queria colocar o nome do aluno
-# porem nao dá,tentei de tudo,nos foruns,consegue por só com tuplas ou listas
-# ainda nao fiz
+#####Exercicio parece ser simples mais me deu um trabalhinho,porém rodo com sucesso
