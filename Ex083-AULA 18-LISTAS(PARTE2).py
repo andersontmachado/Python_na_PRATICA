@@ -6,8 +6,11 @@ galera.append(pessoas[:])#copia
 pessoas[0]='Jose'
 pessoas[1]=55
 galera.append(pessoas[:])
+pessoas[0]='Anderson'
+pessoas[1]=15
+galera.append(pessoas[:])
+galera.insert(0,'Mara')
 print(galera)
-
 #######################################################################################
 '''galera=[['João',19],['Ana',33],['Joaquim',13],['Maria',45]]
 print(galera)
