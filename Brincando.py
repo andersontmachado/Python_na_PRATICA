@@ -16,11 +16,11 @@ while opção !=99:
     while soma==0:
         if idade <18:
             sleep(0)
-            print('Você tem \033[32m{}\033[m anos,é de menor!'.format(idade))
+            print('Você tem {} anos,é de menor!'.format(idade))
             soma=soma+1
         else:
             sleep(0)
-            print('Você tem \033[31m{}\033[m anos,é de maior!'.format(idade))
+            print('Você tem {} anos,é de maior!'.format(idade))
             soma=soma+1
     print('''    [1]Balada
     [2]Igreja
